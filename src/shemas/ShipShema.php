@@ -36,7 +36,7 @@ class ShipShema extends \mmaurice\apigate\builders\ShemaBuilder
         'discounts' => ['string'],
         'discountsNextYear' => ['string'],
         'files' => [ShipFilesShema::class],
-        'photos' => [ShipPhotosShema::class],
+        'photos' => [[ShipPhotosShema::class, ArrayType::class]],
         'photoArchive' => ['string'],
         'photoArchiveSize' => ['integer'],
         'interestingFactsPhotos' => [InterestingFactsPhotosShema::class],
