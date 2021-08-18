@@ -9,6 +9,7 @@ class ShipFilesShema extends \mmaurice\apigate\builders\ShemaBuilder
     protected static $rules = [
         'photo' => [ShipFileShema::class],
         'scheme' => [ShipFileShema::class],
+        'schemeEn' => [ShipFileShema::class],
         'schemeFlash' => [ShipFileShema::class],
         'captainPhoto' => [ShipFileShema::class],
     ];
