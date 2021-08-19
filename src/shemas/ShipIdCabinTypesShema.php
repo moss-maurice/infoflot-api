@@ -12,6 +12,7 @@ class ShipIdCabinTypesShema extends \mmaurice\apigate\builders\ShemaBuilder
     protected static $rules = [
         'id' => ['integer'],
         'name' => ['string'],
+        'description' => ['string'],
         'photos' => [['string', ArrayType::class]],
         'friendlyName' => [ShipIdCabinTypeFriendlyNameSheme::class],
         'class' => [ShipIdCabinTypeClassSheme::class],
