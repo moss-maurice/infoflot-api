@@ -10,6 +10,7 @@ final class RulesMethod extends \mmaurice\api\infoflot\builders\MethodBuilder
     protected static $shemas = [
         200 => DiscountRulesShema::class,
         403 => ErrorShema::class,
+        404 => ErrorShema::class,
     ];
 
     protected function method()

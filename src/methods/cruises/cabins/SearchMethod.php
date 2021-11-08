@@ -30,6 +30,7 @@ final class SearchMethod extends \mmaurice\api\infoflot\builders\MethodBuilder
     protected static $shemas = [
         200 => CruiseCabinsSearchShema::class,
         403 => ErrorShema::class,
+        404 => ErrorShema::class,
     ];
 
     protected function method()

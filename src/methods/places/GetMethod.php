@@ -14,6 +14,7 @@ final class GetMethod extends \mmaurice\api\infoflot\builders\MethodBuilder
     protected static $shemas = [
         200 => PublicPlaceShema::class,
         403 => ErrorShema::class,
+        404 => ErrorShema::class,
     ];
 
     protected function method()

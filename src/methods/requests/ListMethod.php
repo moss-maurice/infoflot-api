@@ -21,6 +21,7 @@ final class ListMethod extends \mmaurice\api\infoflot\builders\MethodBuilder
         200 => RequestsShema::class,
         400 => ErrorShema::class,
         403 => ErrorShema::class,
+        404 => ErrorShema::class,
     ];
 
     protected function method()
